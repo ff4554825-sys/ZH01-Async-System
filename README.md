@@ -16,6 +16,7 @@ always @(posedge feedback_event) begin
     dw_out <= (pre_trace * post_trace) * eta_factor; 
 end
 
+
 ### 💼 商业合作与授权：
 若需获取完整版白皮书、仿真波形图或洽谈技术入股：
 1. **联系邮箱**：fzh584521@proton.me
