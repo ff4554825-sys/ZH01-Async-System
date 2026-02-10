@@ -9,6 +9,12 @@
 
 ### ⚠️ 重要声明：
 包含 10 万次推演权重集、物主锁和核心参数的 V20.1 完整版为**非公开**。
+### 🧬 核心逻辑片段 (Core Logic)
+```verilog
+// 异步触发增量更新逻辑预览
+always @(posedge feedback_event) begin
+    dw_out <= (pre_trace * post_trace) * eta_factor; 
+end
 
 ### 💼 商业合作与授权：
 若需获取完整版白皮书、仿真波形图或洽谈技术入股：
